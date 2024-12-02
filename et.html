@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="et.css">
+    <title>Задачер</title>
+</head>
+
+<body>
+    <header>To do List</header>
+
+    <main>
+        <form id="add">
+            <label for="name">Название</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="text">Описание</label>
+            <input type="text" id="text" name="text" autocomplete="off" required><br>
+
+            <label for="time">Data:</label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2024-11-25T15:25">
+
+
+
+            <button type="submit" id="submit">Добавить задачу</button>
+        </form>
+
+        <div id="tasks-container"></div>
+    </main>
+    <footer>
+        © 2024 Все права защищены <br>
+        Создано студентом Дархан Семиятов
+    </footer>
+
+    <script src="et.js"></script>
+
+</body>
+
+</html>
